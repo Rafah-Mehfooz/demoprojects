@@ -29,9 +29,16 @@
             <img class="logged-out-panel-logo" src="img/characterly-logo.png" alt="characterly-logo" width="140px" height="70px">
             <div class="panel-area">
                 <div class="notification-block">
-                    <img src="img/ico-information.png" tabindex="0" data-trigger="focus" width="16px" title="Popover title" data-toggle="popover"
-                        data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-
+                    <div class="modal modal-danger-overlay fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                        <div class="modal-dialog modal-sm" role="document">
+                            <div class="modal-content model-danger">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <p>Aenean iaculis enim nec sollicitudin gravida, tiam tincidunt, odio id maximus viverra, quam
+                                    metus ultricies sapien, sit amet commodo velit erat ornare massa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/ico-information.png" data-trigger="focus" width="16px" data-toggle="modal" data-target=".bs-example-modal-sm">
                 </div>
                 <span class="panel-header">Login to your account</span>
                 <p>You must have a passcode to login to a branch account.</p>
@@ -45,15 +52,8 @@
                         <label for="passcode">Passcode</label>
                         <input type="text" class="rectangle rectangle-1 rec-center-align" id="passcode" placeholder="" name="passcode">
                     </div>
-                    <div class="modal modal-danger-overlay fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                        <div class="modal-dialog modal-sm" role="document">
-                            <div class="modal-content model-danger">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <p>Aenean iaculis enim nec sollicitudin gravida, tiam tincidunt, odio id maximus viverra, quam metus ultricies sapien, sit amet commodo velit erat ornare massa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-light btn-block btn-margin">Enter</button>
+                    
+                    <button type="button" class="btn btn-light btn-block btn-margin">Enter</button>
                 </form>
 
             </div>
