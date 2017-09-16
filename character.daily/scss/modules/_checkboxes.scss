@@ -1,0 +1,56 @@
+/* Carousel */
+
+
+.checkbox-light input[type="checkbox"],
+.checkbox-light input[type="radio"] {
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+}
+
+.checkbox-light label::before {
+    cursor: pointer;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;
+    top: 4px;
+    margin: 7px 0px 0px 12px;
+    border: 1px solid $light-color;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.checkbox-light label::after {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    padding-left: 3px;
+    margin: 12px 0px 0px 13px;
+    padding-top: 0px;
+    font-size: 11px;
+}
+
+.checkbox-light input[type="checkbox"]:checked+label::before,
+.checkbox-light input[type="radio"]:checked+label::before {
+    outline: none;
+    background-color: $light-color;
+    border-color: $very-light-color;
+}
+
+.checkbox-light input[type="checkbox"]:checked+label::after,
+.checkbox-light input[type="radio"]:checked+label::after {
+    font-family: "FontAwesome";
+    content: "";
+    color: $very-light-color;
+    font-weight: lighter;
+}
+.checkbox-light label {
+    margin-left:10px;
+}
