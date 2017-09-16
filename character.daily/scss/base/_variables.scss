@@ -27,3 +27,20 @@ $light-bg: #fff;
 
 $showcase-height:400px;
 $showcase-image:'../img/showcase.jpg';
+
+/*global messages*/
+$sucess-message: #d2ffcf;
+$sucess-message-dark: #75bc43;
+$sucess-message-text:#006d05;
+
+$warning-message: rgba(0, 188, 240, 0.25);
+$warning-message-dark: #00bcf0;
+$warning-message-text:#586881;
+
+$info-message: rgba(244, 188, 24, 0.16);
+$info-message-dark: #ffbf00;
+$info-message-text:#eb7b23;
+
+$error-message: rgba(240, 86, 61, 0.1);
+$error-message-dark: #f0553d;
+$error-message-text:#e82a16;

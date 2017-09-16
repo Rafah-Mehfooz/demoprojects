@@ -7,6 +7,7 @@
 /* Font Colors */
 /* Background Colors */
 /* Showcase Area */
+/*global messages*/
 /* Mixins */
 h1, h2, h3, h4, h5 {
   margin-top: 0; }
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5 {
   padding: 90px 0 30px 0; }
 
 .btn-margin {
-  margin: 20px 0px 0px; }
+  margin: 15px 0px 0px; }
 
 /* Image Sizes */
 .img-xsm {
@@ -348,6 +349,53 @@ input.form-control {
   top: 10px;
   position: absolute; }
 
+.global {
+  max-width: 395px;
+  padding: 15px;
+  min-height: 18px;
+  border-radius: 3px;
+  margin: 20px 15px 16px; }
+  .global h4 {
+    font-size: 1em;
+    margin: 0 0px 5px;
+    color: inherit; }
+  .global p {
+    font-size: 0.825em;
+    margin: 0 0px 5px;
+    color: inherit; }
+  .global span {
+    font-size: 0.825em;
+    margin: 0 0px 5px;
+    color: inherit;
+    text-align: center; }
+
+.global-message-success {
+  color: #006d05;
+  background-color: #d2ffcf;
+  border: 1px solid #75bc43; }
+
+.global-message-warning {
+  color: #586881;
+  background-color: rgba(0, 188, 240, 0.25);
+  border: 1px solid #00bcf0; }
+
+.global-message-info {
+  color: #eb7b23;
+  background-color: rgba(244, 188, 24, 0.16);
+  border: 1px solid #ffbf00; }
+
+.global-message-error {
+  color: #e82a16;
+  background-color: rgba(240, 86, 61, 0.1);
+  border: 1px solid #f0553d; }
+
+.ico_close {
+  width: 15px;
+  height: 14px;
+  object-fit: contain;
+  transform: rotate(-315deg);
+  background-color: #2e2e2e; }
+
 /* Searchbox */
 .search {
   width: 100%; }
@@ -456,8 +504,17 @@ input.form-control {
     .section-logged-out .showcase-logged-out .logged-out-panel-logo {
       margin: 0px auto;
       display: block; }
+    .section-logged-out .showcase-logged-out .panel-top {
+      text-align: center;
+      margin: 30px 0px 40px; }
+      .section-logged-out .showcase-logged-out .panel-top h2 {
+        font-size: 1.25em;
+        font-weight: bold;
+        margin: 3px 0 7px; }
+      .section-logged-out .showcase-logged-out .panel-top p {
+        margin: 3px 0 2px; }
     .section-logged-out .showcase-logged-out .panel-area {
-      min-height: 355px;
+      min-height: 220px;
       margin: 20px 15px 25px;
       padding: 18px 20px 30px;
       background-color: #fff; }
@@ -467,8 +524,8 @@ input.form-control {
         text-align: left;
         color: #6b7c93; }
       .section-logged-out .showcase-logged-out .panel-area p {
-        margin: 6px 0px 10px;
-        font-size: 0.925em; }
+        margin: 5px 0px 15px;
+        font-size: 0.825em; }
 
 /* LAYOUTS - Page layout styles */
 /* Navbar */
@@ -499,6 +556,9 @@ input.form-control {
 /* Blog */
 @media (max-width: 1024px) {
   .section-logged-out .showcase-logged-out {
+    max-width: 345px; }
+
+  .global {
     max-width: 345px; } }
 @media (max-width: 425px) {
   .modal-dialog {

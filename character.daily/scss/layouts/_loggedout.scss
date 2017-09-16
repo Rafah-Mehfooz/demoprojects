@@ -14,8 +14,20 @@
             margin: 0px auto;
             display: block;
         }
+        .panel-top {
+            text-align: center;
+            margin:30px 0px 40px;
+            h2 {
+                font-size: 1.25em;
+                font-weight: bold;
+                margin: 3px 0 7px;
+            }
+            p{
+                margin: 3px 0 2px;
+            }
+        }
         .panel-area {
-            min-height: 355px;
+            min-height: 220px;
             margin: 20px 15px 25px;
             padding: 18px 20px 30px;
             background-color: $light-bg;
@@ -26,8 +38,8 @@
                 color: $base-font-color;
             }
             p {
-                margin: 6px 0px 10px;
-                font-size: 0.925em;
+                margin: 5px 0px 15px;
+                font-size: 0.825em;
             }
         }
     }

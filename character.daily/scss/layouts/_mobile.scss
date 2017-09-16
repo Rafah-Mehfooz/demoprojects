@@ -4,16 +4,15 @@
             max-width: 345px;
         }
     }
+    .global {
+        max-width: 345px;
+    }
 }
 
-@media(max-width:768px) {
-
-}
-
+@media(max-width:768px) {}
 
 @media(max-width:425px) {
-    
-        .modal-dialog {
-            margin:15vh 15px 0px;
-        }
+    .modal-dialog {
+        margin: 15vh 15px 0px;
     }
+}
