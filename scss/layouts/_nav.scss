@@ -1,0 +1,15 @@
+
+/* Navbar */
+
+.navbar{
+	
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus{
+	background:$primary-color !important;
+	color:#fff !important;
+}

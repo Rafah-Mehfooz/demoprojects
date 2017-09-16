@@ -1,0 +1,34 @@
+body{
+	font-family:$base-font-family;
+	font-size:$base-font-size;
+	line-height:1.2em;
+	color:$base-font-color;
+	background-color: $body-bg;
+}
+
+a{
+	color:$primary-color;
+}
+
+ul,li{
+	list-style:none;
+}
+
+input, textarea, button{
+	@include border-radius(0px);
+}
+
+hr {
+	margin: 13px auto 12px;
+	height: 3px;
+    border-top: solid 1px #d8d8d8;
+}
+
+label {
+	font-weight: lighter;
+	color:$base-font-color;
+}
+
+footer {
+	bottom: 0px;
+}
