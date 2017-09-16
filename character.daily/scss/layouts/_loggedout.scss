@@ -1,31 +1,33 @@
 /*Characterly Login Page */
 
-
-
-.section-login {
+.section-logged-out {
     width: 100%;
     min-height: 95vh;
     @include flexbox;
     @include flex-direction(column);
-    .showcase-login {
+    .showcase-logged-out {
         margin: 3vh auto 0px;
         max-width: 425px;
         width: 100%;
         @include border-radius(3px);
-        .login-panel-logo{
+        .logged-out-panel-logo {
             margin: 0px auto;
             display: block;
         }
-        .panel-area{
+        .panel-area {
             min-height: 355px;
             margin: 20px 15px 25px;
             padding: 18px 20px 30px;
             background-color: $light-bg;
-            .panel-header{
+            .panel-header {
                 font-size: 1em;
                 font-weight: 600;
                 text-align: left;
-                color:$base-font-color;
+                color: $base-font-color;
+            }
+            p {
+                margin: 6px 0px 10px;
+                font-size: 0.925em;
             }
         }
     }

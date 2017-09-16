@@ -1,6 +1,6 @@
 @media(max-width:1024px) {
-    .section-login {
-        .showcase-login {
+    .section-logged-out {
+        .showcase-logged-out {
             max-width: 345px;
         }
     }
@@ -8,5 +8,12 @@
 
 @media(max-width:768px) {
 
-    
 }
+
+
+@media(max-width:425px) {
+    
+        .modal-dialog {
+            margin:15vh 15px 0px;
+        }
+    }

@@ -45,6 +45,7 @@ input.form-control {
     color: $base-font-color;
     width: 100%;
     display: block;
+    text-align: left;
 }
 
 .rectangle-1 {
@@ -72,7 +73,6 @@ input.form-control {
     background-color: rgba(240, 86, 61, 0.1);
     border: solid 1px $danger-color;
     color: $danger-color;
-    text-align: left;
 }
 
 .rectangle-danger-error {
@@ -87,8 +87,10 @@ input.form-control {
     }
 }
 
-
-
+.rec-center-align{
+    text-align: center;
+    font-size: 1.2em;
+}
 .Error-message {
     text-align: left;
     color: $error-color;
