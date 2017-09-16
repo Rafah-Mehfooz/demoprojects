@@ -32,3 +32,49 @@ input.form-control {
     margin-bottom: 24px;
     height: 42px;
 }
+
+.label-1 {
+    text-align: left;
+    color: $base-font-color;
+}
+
+.rectangle {
+    height: 42px;
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: $base-font-color;
+    width: 100%;
+    display: block;
+}
+
+.rectangle-1 {
+    background-color: #fcfcfc;
+    border: solid 1px #dbdbdb;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0px auto 24px;
+}
+
+.rectangle-2 {
+    background-color: $body-bg;
+    border: solid 1px $very-light-color;
+    max-width: 275px;
+    padding: 11px 12px;
+    margin: 0px auto 15px;
+    a {
+        color: $base-font-color;
+        text-align: center;
+        display: block;
+        font-size: 0.825em;
+    }
+}
+
+.rectangle-error {
+    background-color: #ffc0ba;
+    border: solid 1px $error-color;
+}
+
+.Error-message {
+    text-align: left;
+    color: $error-color;
+}
