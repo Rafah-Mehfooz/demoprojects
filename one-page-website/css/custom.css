@@ -29,7 +29,8 @@ Note: This is the file where you can add your custom styles to change the look o
   padding-bottom: 0;
 }
 
-.bg-about { background: url(../images/bg/about.jpg);}
+.bg-about { background: url(../images/1HD/about.jpg);}
+.bg-contact { background: url(../images/1HD/contact2.jpg);}
 .cs-bg{
    background-attachment: fixed; background-clip: initial;background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: center center; background-repeat: no-repeat; background-size: cover; position: relative; z-index: 0;
 }
