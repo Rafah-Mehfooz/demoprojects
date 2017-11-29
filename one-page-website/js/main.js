@@ -98,7 +98,9 @@
     -----------------------------*/
       $('.testimonial-wrap').owlCarousel({
         items : 1,
-        loop:true
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:8000
       });
     /*-----------------------------
     08. Cx-brand-wrap
