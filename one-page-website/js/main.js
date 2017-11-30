@@ -139,8 +139,8 @@
       $('.slider-owl-active').owlCarousel({
         items : 1,
         loop:true,
-        dots:true,
-        nav:true,
+        dots:false,
+        nav:false,
         navText: ['<i class="icofont icofont-long-arrow-left"></i>','<i class="icofont icofont-long-arrow-right"></i>'],
       });
 
