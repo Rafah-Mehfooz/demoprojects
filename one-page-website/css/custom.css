@@ -28,7 +28,10 @@ Note: This is the file where you can add your custom styles to change the look o
   margin-top:-3px;
   padding-bottom: 0;
 }
-
+.cx-bradcaump-area {
+  padding-bottom: 60px;
+  padding-top: 140px;
+}
 .bg-about { background: url(../images/1HD/about.jpg);}
 .bg-contact { background: url(../images/1HD/contact2.jpg);}
 .cs-bg{
@@ -50,7 +53,8 @@ Note: This is the file where you can add your custom styles to change the look o
   position: inherit;
   margin-left:auto;
   margin-right:auto;
-  width: 25%;
+  width: 100%;
+  max-width: 225px;
 }
 
 
