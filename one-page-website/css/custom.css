@@ -31,7 +31,9 @@ Note: This is the file where you can add your custom styles to change the look o
     margin-top: -3px;
     padding-bottom: 0;
 }
-
+.cx-single-skill p {
+    margin-bottom: 10px;
+}
 .cx-bradcaump-area {
     padding-bottom: 60px;
     padding-top: 140px;
