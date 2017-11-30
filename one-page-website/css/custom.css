@@ -34,3 +34,21 @@ Note: This is the file where you can add your custom styles to change the look o
 .cs-bg{
    background-attachment: fixed; background-clip: initial;background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: center center; background-repeat: no-repeat; background-size: cover; position: relative; z-index: 0;
 }
+.cx-sub-form-wrap {
+  padding: 0;
+}
+.cx-sub-form-wrap form input[type="email"] {
+  padding: 0 15px;
+  text-align: center;
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.cx-sub-form-wrap form input[type="submit"] {
+  margin-top: 15px;
+  padding: 0 45px;
+  position: inherit;
+  margin-left:auto;
+  margin-right:auto;
+  width: 25%;
+}
