@@ -34,10 +34,7 @@ Note: This is the file where you can add your custom styles to change the look o
 .cx-single-skill p {
     margin-bottom: 10px;
 }
-.cx-bradcaump-area {
-    padding-bottom: 60px;
-    padding-top: 140px;
-}
+
 
 .bg-about {
     background: url(../images/1HD/about.jpg);
@@ -64,7 +61,7 @@ Note: This is the file where you can add your custom styles to change the look o
 .cs-hero-bg1 {
     background-color: rgba(0, 0, 0, 0);
     background: url(../images/1HD/contact2.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-clip: initial;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +76,7 @@ Note: This is the file where you can add your custom styles to change the look o
 .cs-hero-bg2 {
   background-color: rgba(0, 0, 0, 0);
   background: url(../images/1HD/contact3.jpg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-clip: initial;
   background-repeat: no-repeat;
   background-size: cover;

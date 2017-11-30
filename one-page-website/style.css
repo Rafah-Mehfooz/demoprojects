@@ -84,7 +84,7 @@
   .cx-pagination > .active > a,.cx-pagination > .active > a:hover,.cx-pagination > .active > a:focus{background-color:#00aeef;border-color:#00aeef;color:#fff;cursor:default;z-index:3}
   .cx-pagination > li{display:inline-block}
   .cx-pagination > li > a{background-color:#fff;border:1px solid #00aeef;color:#555;display:block;font-family:lato;font-size:12px;font-weight:400;height:30px;line-height:27px;margin:0 5px;text-align:center;text-transform:uppercase;width:30px}
-  .cx-bradcaump-area{padding-bottom:147px;padding-top:180px}
+  .cx-bradcaump-area{padding-bottom:40px;padding-top:130px}
   .brd-separetor{padding:0 3px}
   .single-fact .fact-icon i{color:#4fc1f0;font-size:50px}
   .single-fact .fact-icon{margin-bottom:30px}
